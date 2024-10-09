@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Moderustic-Light;
+    src: url(/fonts/Moderustic-Light.ttf);
+  }
+    
+    .color{
+      background-image: url(/Imagenes/burbuja.inicio.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    nav{
+      background-color: rgb(96, 9, 9);
+      opacity: 0.5;
+      font-family: Moderustic-Light;
+      font-weight: 1000;
+      font-variant: small-caps;
+      margin-left: 15%;
+      margin-right: 15%;
+  
+  
+        .container-fluid{
+          flex-direction: column;
+
+          :hover{
+            color: rgb(242, 255, 5);
+          }
+  
+  
+          .navbar-brand{
+            font-size: xx-large;
+  
+          }
+  
+          .navbar-collapse {
+  
+            :hover{
+              background-color: rgb(253, 93, 1);
+              border-radius: 20%;
+              color: rgb(55, 23, 23);
+            }
+          }
+          
+          a{
+  
+            color: rgb(242, 255, 5);
+            
+          }
+        }
+          ul{
+            font-variant: normal;
+        }
+    }
+    
+    .inicio {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start;
+      height: 100%;
+      width: 100%;
+      margin-top: 5%;
+      flex-wrap: wrap;
+  
+    .fotitos{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 0% 2% 1% 2%;
+      height: 20px;
+      a{
+      :hover{
+        width: 10%;
+        border-width: 4px;}
+      }
+          img{
+            width: 8%;
+            margin-top: 2%;
+            border-radius: 100%;
+            border-style:solid;
+            border-width: 5px;
+            border-color: rgb(96, 9, 9);
+            
+  
+        }
+      }
+        .video{
+          display: flex;
+          align-items: center;
+            width: 48%;
+            margin-top: 15%;
+        }
+      }
+        .bombones{
+          display: flex;
+          height: 80%;
+          padding-top: 1%;
+          margin-top: 20%;
+          padding-bottom: 1%;
+          justify-content: center;
+          background-color: rgba(43, 43, 47, 0.886);
+          opacity: 0.9;
+          
+  
+          img{
+            height: 50%;
+            width: 60%;
+            border-style: ridge;
+            border-color: rgba(43, 43, 47, 0.886);
+          }
+       }
+  

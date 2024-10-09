@@ -1,0 +1,21 @@
+
+.sofi {
+    background-image: url(/Imagenes/fondo.sofi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-expand-lg{
+   opacity: 0.7
+   
+}
+
+.recomendasof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+        img{
+            width: 452.5px;
+        }
+}

@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Moderustic-Light;
+  src: url(/fonts/Moderustic-Light.ttf); }
+
+.color {
+  background-image: url(/Imagenes/burbuja.inicio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+nav {
+  background-color: #600909;
+  opacity: 0.5;
+  font-family: Moderustic-Light;
+  font-weight: 1000;
+  font-variant: small-caps;
+  margin-left: 15%;
+  margin-right: 15%; }
+  nav .container-fluid {
+    flex-direction: column; }
+    nav .container-fluid :hover {
+      color: #f2ff05; }
+    nav .container-fluid .navbar-brand {
+      font-size: xx-large; }
+    nav .container-fluid .navbar-collapse :hover {
+      background-color: #fd5d01;
+      border-radius: 20%;
+      color: #371717; }
+    nav .container-fluid a {
+      color: #f2ff05; }
+  nav ul {
+    font-variant: normal; }
+
+.inicio {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  margin-top: 5%;
+  flex-wrap: wrap; }
+  .inicio .fotitos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0% 2% 1% 2%;
+    height: 20px; }
+    .inicio .fotitos a :hover {
+      width: 10%;
+      border-width: 4px; }
+    .inicio .fotitos img {
+      width: 8%;
+      margin-top: 2%;
+      border-radius: 100%;
+      border-style: solid;
+      border-width: 5px;
+      border-color: #600909; }
+  .inicio .video {
+    display: flex;
+    align-items: center;
+    width: 48%;
+    margin-top: 15%; }
+
+.bombones {
+  display: flex;
+  height: 80%;
+  padding-top: 1%;
+  margin-top: 20%;
+  padding-bottom: 1%;
+  justify-content: center;
+  background-color: rgba(43, 43, 47, 0.886);
+  opacity: 0.9; }
+  .bombones img {
+    height: 50%;
+    width: 60%;
+    border-style: ridge;
+    border-color: rgba(43, 43, 47, 0.886); }
+
+.sofi {
+  background-image: url(/Imagenes/fondo.sofi.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navbar-expand-lg {
+  opacity: 0.7; }
+
+.recomendasof {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .recomendasof img {
+    width: 452.5px; }
+
+.spotify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%; }
+  .spotify h1 {
+    background-color: crimson; }
+
+.negro {
+  background-color: black; }
+
+.juego img {
+  width: 8%;
+  height: 10%;
+  margin-top: 2%;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #600909; }
+
+.juego .ju {
+  transform: translate(100%, 58%);
+  transition: 2s; }
